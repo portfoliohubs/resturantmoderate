@@ -1,0 +1,282 @@
+baseURL = "https://username.github.io/repository"
+languageCode = "en-us"
+title = "Artisan Cafe - Premium Menu"
+theme = ""
+
+[params]
+  cafe_name = "Artisan Cafe"
+  tagline = "Crafted with Passion, Served with Love"
+  description = "Experience the finest artisanal coffee and gourmet cuisine in an elegant atmosphere"
+  phone = "+1 (555) 123-4567"
+  email = "hello@artisancafe.com"
+  address = "123 Gourmet Street, Culinary District, NY 10001"
+  hours = "Mon-Fri: 7AM-10PM | Sat-Sun: 8AM-11PM"
+
+[params.social]
+  instagram = "#"
+  facebook = "#"
+  twitter = "#"
+
+[menu]
+  [[menu.main]]
+    name = "Home"
+    url = "/"
+    weight = 10
+  [[menu.main]]
+    name = "Menu"
+    url = "#menu"
+    weight = 20
+  [[menu.main]]
+    name = "About"
+    url = "#about"
+    weight = 30
+  [[menu.main]]
+    name = "Contact"
+    url = "#contact"
+    weight = 40
+
+[params.categories]
+  [[params.categories.coffee]]
+    name = "Artisan Coffee"
+    description = "Premium coffee beans sourced from sustainable farms"
+    icon = "☕"
+    
+  [[params.categories.pastries]]
+    name = "Fresh Pastries"
+    description = "Handcrafted daily with finest ingredients"
+    icon = "🥐"
+    
+  [[params.categories.breakfast]]
+    name = "Breakfast Delights"
+    description = "Start your day with our gourmet breakfast"
+    icon = "🍳"
+    
+  [[params.categories.lunch]]
+    name = "Lunch Specialties"
+    description = "Fresh and flavorful lunch options"
+    icon = "🥗"
+    
+  [[params.categories.desserts]]
+    name = "Decadent Desserts"
+    description = "Indulgent sweet creations"
+    icon = "🍰"
+    
+  [[params.categories.beverages]]
+    name = "Specialty Beverages"
+    description = "Refreshing and unique drink selections"
+    icon = "🥤"
+
+[params.menu_items]
+  [[params.menu_items.coffee]]
+    name = "Espresso Perfetto"
+    description = "Rich, bold espresso with caramel notes"
+    price = "$4.50"
+    popular = true
+    image = "https://images.unsplash.com/photo-1541167760496-1628856ab772?w=400&h=300&fit=crop&crop=center"
+    
+  [[params.menu_items.coffee]]
+    name = "Cappuccino Classico"
+    description = "Velvet microfoam with premium espresso"
+    price = "$5.25"
+    image = "https://images.unsplash.com/photo-1572442388296-5d2146d1f824?w=400&h=300&fit=crop&crop=center"
+    
+  [[params.menu_items.coffee]]
+    name = "Caramel Macchiato"
+    description = "Vanilla syrup, steamed milk, espresso, caramel drizzle"
+    price = "$6.75"
+    popular = true
+    image = "https://images.unsplash.com/photo-1534752185215-b4952c1a7a0a?w=400&h=300&fit=crop&crop=center"
+    
+  [[params.menu_items.coffee]]
+    name = "Cold Brew Fusion"
+    description = "24-hour steeped, smooth and refreshing"
+    price = "$5.50"
+    image = "https://images.unsplash.com/photo-1551039830-4334d1b7c3a6?w=400&h=300&fit=crop&crop=center"
+    
+  [[params.menu_items.coffee]]
+    name = "Flat White"
+    description = "Double ristretto with velvety microfoam"
+    price = "$5.75"
+    image = "https://images.unsplash.com/photo-1564890369478-c89ca6d9cda9?w=400&h=300&fit=crop&crop=center"
+    
+  [[params.menu_items.coffee]]
+    name = "Mocha Delight"
+    description = "Espresso, steamed milk, chocolate syrup, whipped cream"
+    price = "$6.25"
+    image = "https://images.unsplash.com/photo-1512906866579-075ef253fb4e?w=400&h=300&fit=crop&crop=center"
+    
+  [[params.menu_items.pastries]]
+    name = "Croissant Au Beurre"
+    description = "Buttery French croissant, golden and flaky"
+    price = "$4.25"
+    popular = true
+    image = "https://images.unsplash.com/photo-1555507032-65e4949b6636?w=400&h=300&fit=crop&crop=center"
+    
+  [[params.menu_items.pastries]]
+    name = "Pain Au Chocolat"
+    description = "Chocolate-filled croissant with dark chocolate"
+    price = "$5.50"
+    image = "https://images.unsplash.com/photo-1606313514208-e8d5279053d1?w=400&h=300&fit=crop&crop=center"
+    
+  [[params.menu_items.pastries]]
+    name = "Almond Croissant"
+    description = "Frangipane filling with sliced almonds"
+    price = "$6.25"
+    image = "https://images.unsplash.com/photo-1606313514208-e8d5279053d1?w=400&h=300&fit=crop&crop=center"
+    
+  [[params.menu_items.pastries]]
+    name = "Chocolate Eclair"
+    description = "Choux pastry with chocolate cream and glaze"
+    price = "$5.75"
+    image = "https://images.unsplash.com/photo-1561098342-2d023a8c2b50?w=400&h=300&fit=crop&crop=center"
+    
+  [[params.menu_items.pastries]]
+    name = "Fruit Tartlette"
+    description = "Fresh berries on vanilla custard in pastry shell"
+    price = "$6.50"
+    image = "https://images.unsplash.com/photo-1568952467016-f4e1c569a743?w=400&h=300&fit=crop&crop=center"
+    
+  [[params.menu_items.breakfast]]
+    name = "Avocado Toast Deluxe"
+    description = "Sourdough, smashed avocado, poached eggs, feta"
+    price = "$12.50"
+    popular = true
+    image = "https://images.unsplash.com/photo-1588137378631-de1c6b1d0f1f?w=400&h=300&fit=crop&crop=center"
+    
+  [[params.menu_items.breakfast]]
+    name = "Classic Eggs Benedict"
+    description = "English muffin, Canadian bacon, hollandaise"
+    price = "$14.75"
+    image = "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?w=400&h=300&fit=crop&crop=center"
+    
+  [[params.menu_items.breakfast]]
+    name = "Berry Pancake Stack"
+    description = "Fluffy pancakes, mixed berries, maple syrup"
+    price = "$11.25"
+    image = "https://images.unsplash.com/photo-1563379091339-03246922d27e?w=400&h=300&fit=crop&crop=center"
+    
+  [[params.menu_items.breakfast]]
+    name = "Smoked Salmon Bagel"
+    description = "Everything bagel, cream cheese, capers, red onion"
+    price = "$13.50"
+    image = "https://images.unsplash.com/photo-1608767229798-2e4ea3b8a2c6?w=400&h=300&fit=crop&crop=center"
+    
+  [[params.menu_items.breakfast]]
+    name = "Greek Yogurt Parfait"
+    description = "Greek yogurt, granola, honey, fresh berries"
+    price = "$8.75"
+    image = "https://images.unsplash.com/photo-1511690743698-d9d85f2fbf38?w=400&h=300&fit=crop&crop=center"
+    
+  [[params.menu_items.lunch]]
+    name = "Mediterranean Quinoa Bowl"
+    description = "Quinoa, roasted vegetables, feta, tahini dressing"
+    price = "$13.50"
+    popular = true
+    image = "https://images.unsplash.com/photo-1512621776951-a57141f2eefd?w=400&h=300&fit=crop&crop=center"
+    
+  [[params.menu_items.lunch]]
+    name = "Grilled Chicken Caesar"
+    description = "Romaine, parmesan, croutons, caesar dressing"
+    price = "$12.75"
+    image = "https://images.unsplash.com/photo-1550258987-190a2d41a8ba?w=400&h=300&fit=crop&crop=center"
+    
+  [[params.menu_items.lunch]]
+    name = "Caprese Panini"
+    description = "Fresh mozzarella, tomatoes, basil, balsamic glaze"
+    price = "$11.50"
+    image = "https://images.unsplash.com/photo-1528735602780-2552fd46c7af?w=400&h=300&fit=crop&crop=center"
+    
+  [[params.menu_items.lunch]]
+    name = "Thai Chicken Wrap"
+    description = "Grilled chicken, peanut sauce, vegetables, rice paper"
+    price = "$12.25"
+    image = "https://images.unsplash.com/photo-1555949963-ff9fe0c870eb?w=400&h=300&fit=crop&crop=center"
+    
+  [[params.menu_items.lunch]]
+    name = "Mushroom Risotto"
+    description = "Creamy arborio rice, mixed mushrooms, parmesan"
+    price = "$14.50"
+    image = "https://images.unsplash.com/photo-1586238688450-f590ba443442?w=400&h=300&fit=crop&crop=center"
+    
+  [[params.menu_items.desserts]]
+    name = "Chocolate Lava Cake"
+    description = "Warm chocolate cake with molten center"
+    price = "$8.50"
+    popular = true
+    image = "https://images.unsplash.com/photo-1627308595229-7831a5f2214a?w=400&h=300&fit=crop&crop=center"
+    
+  [[params.menu_items.desserts]]
+    name = "Tiramisu Classico"
+    description = "Coffee-soaked ladyfingers, mascarpone cream"
+    price = "$7.75"
+    image = "https://images.unsplash.com/photo-1571877227200-a0d98ea607e9?w=400&h=300&fit=crop&crop=center"
+    
+  [[params.menu_items.desserts]]
+    name = "Crème Brûlée"
+    description = "Vanilla custard with caramelized sugar top"
+    price = "$7.25"
+    image = "https://images.unsplash.com/photo-1488900128323-21503983a07e?w=400&h=300&fit=crop&crop=center"
+    
+  [[params.menu_items.desserts]]
+    name = "New York Cheesecake"
+    description = "Classic cheesecake with berry compote"
+    price = "$8.25"
+    image = "https://images.unsplash.com/photo-1488477181946-6428a0291777?w=400&h=300&fit=crop&crop=center"
+    
+  [[params.menu_items.desserts]]
+    name = "Panna Cotta"
+    description = "Vanilla bean panna cotta with raspberry sauce"
+    price = "$7.50"
+    image = "https://images.unsplash.com/photo-1565958011703-44f9829ba567?w=400&h=300&fit=crop&crop=center"
+    
+  [[params.menu_items.beverages]]
+    name = "Fresh Orange Juice"
+    description = "Cold-pressed, locally sourced oranges"
+    price = "$5.25"
+    image = "https://images.unsplash.com/photo-1600271886742-f049cd451bba?w=400&h=300&fit=crop&crop=center"
+    
+  [[params.menu_items.beverages]]
+    name = "Matcha Latte"
+    description = "Ceremonial grade matcha with oat milk"
+    price = "$6.50"
+    popular = true
+    image = "https://images.unsplash.com/photo-1578662996442-48f60103fc96?w=400&h=300&fit=crop&crop=center"
+    
+  [[params.menu_items.beverages]]
+    name = "Iced Vanilla Latte"
+    description = "Espresso, vanilla syrup, milk over ice"
+    price = "$5.75"
+    image = "https://images.unsplash.com/photo-1514756331096-242fdeb70d4a?w=400&h=300&fit=crop&crop=center"
+    
+  [[params.menu_items.beverages]]
+    name = "Green Smoothie"
+    description = "Spinach, banana, mango, coconut water"
+    price = "$7.25"
+    image = "https://images.unsplash.com/photo-1589459021118-9e5c29b3a1a2?w=400&h=300&fit=crop&crop=center"
+    
+  [[params.menu_items.beverages]]
+    name = "Chai Tea Latte"
+    description = "Spiced black tea, steamed milk, honey"
+    price = "$5.50"
+    image = "https://images.unsplash.com/photo-1578662996442-48f60103fc96?w=400&h=300&fit=crop&crop=center"
+
+[params.features]
+  [[params.features.feature]]
+    title = "Premium Quality"
+    description = "Only the finest ingredients sourced globally"
+    icon = "⭐"
+    
+  [[params.features.feature]]
+    title = "Artisan Crafted"
+    description = "Handmade with passion and expertise"
+    icon = "🎨"
+    
+  [[params.features.feature]]
+    title = "Sustainable Sourcing"
+    description = "Ethically sourced from local partners"
+    icon = "🌱"
+    
+  [[params.features.feature]]
+    title = "Cozy Atmosphere"
+    description = "Elegant ambiance perfect for any occasion"
+    icon = "✨"
